@@ -1,0 +1,104 @@
+.Parent{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.Child-1{
+	width: 30%;
+	border: 1px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+	box-shadow: 3px 3px 3px -3px#000;
+	
+}
+
+.Child-2{
+	width: 60%;
+	border: 1px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+	box-shadow: 3px 3px 3px -3px#000;
+}
+
+.Child-1>img{
+	width: 50%;
+	display: block;
+	margin: 0 auto 0 auto;
+
+}
+
+a{
+	word-wrap: break-word;
+	text-decoration: none;
+}
+
+h3{
+	color: #000;
+}
+
+table{
+	width: 100%;
+	border: 1px solid #000;
+	margin: 1%;
+}
+
+table thead{
+	background: #ec850d ;
+}
+
+thead tr th{
+	padding: 1%;
+}
+
+
+tbody tr:nth-child(odd){
+		background: #ddd;
+}
+
+tbody tr td{
+	padding: 1%;
+	text-align: center;
+	                                                                         
+}
+/* Mobile Devices*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.Child-1{
+		width: 90%;
+		border: 1px solid #ddd;
+		margin: 1%;
+		padding: 1%;
+		box-shadow: 3px 3px 3px -3px#000;
+	
+	}
+
+.Child-2{
+		width: 90%;
+		border: 1px solid #ddd;
+		margin: 1%;
+		padding: 1%;
+		box-shadow: 3px 3px 3px -3px#000;
+	}
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.Child-1{
+		width: 45%;
+		border: 1px solid #ddd;
+		margin: 1%;
+		padding: 1%;
+		box-shadow: 3px 3px 3px -3px#000;
+		
+	}
+
+.Child-2{
+		width: 45%;
+		border: 1px solid #ddd;
+		margin: 1%;
+		padding: 1%;
+		box-shadow: 3px 3px 3px -3px#000;
+	}
+
+}
